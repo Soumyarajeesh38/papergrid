@@ -1,0 +1,253 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.header1{
+    background: black;
+    width: 100%;
+    height: 50px;
+    margin-bottom:.1px ;
+    
+
+}
+.toplogo{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+  
+}
+
+.toplogo-text{
+    color: white;
+    
+     text-decoration: none;
+    font-size:15px;
+    margin-bottom: 10px;
+
+}
+
+.header1:hover{
+    background-color:gray;
+
+}
+.header2{
+
+    width: 100%;
+    height: 100px;
+    background:black;
+    padding: 28px
+}
+.toplogo-text2{
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family:  Helvetica, Arial, sans-serif;
+    margin-left: 20px;
+    text-align: left;
+    word-spacing: 40px;
+    
+}
+
+
+.icon1{
+    
+    color: #fff;
+    font-size: 15px;
+    font: weight 40px; 
+    text-decoration: none;
+    font-family:  Helvetica, Arial, sans-serif;
+    margin-left: 20px;
+    text-align: left; 
+    text-decoration: underline;
+    letter-spacing: 2px;
+
+    line-height: 60px;
+}
+.icon2{
+   color: #fff;
+    font-size: 15px;
+    font-weight:40; 
+    text-decoration: none; 
+    font-family:  Helvetica, Arial, sans-serif;
+    margin-left: 20px;
+    text-align: left; 
+    transition: all 0.2s;
+    word-spacing: 40px;
+    line-height: 60px;
+}
+.icon2:hover{
+    text-decoration: underline;
+}
+.icon3{
+    color: #fff;
+    font: size 0.4rem;
+    font-weight:40;
+    text-decoration: none;
+    font-family:  Helvetica, Arial, sans-serif;
+    margin-left: 20px;
+    text-align: left;
+    transition: all 0.2s;
+    word-spacing: 40px;
+    line-height: 60px;
+}
+.icon3:hover{
+    text-decoration: underline;}
+.icon4{
+    color: #fff;
+    font: size 0.4rem;
+    font-weight:40;
+    text-decoration: none;
+    font-family:  Helvetica, Arial, sans-serif;
+    margin-left: 20px;
+    text-align: left;
+    transition: all 0.2s;
+    line-height: 60px;
+}
+.icon4:hover{
+    text-decoration: underline;}
+ .fa-user{
+    color:white;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: left;
+    padding-left: 600px;
+ }  
+  .fa-bag-shopping{
+ color:#fff;
+ font-size: 30px;
+ cursor: pointer;
+ text-align: left;
+ padding-left: 50px; 
+}
+.fa-arrow-right{
+    color: #fff;
+  }
+.mainbody{
+    
+    width: 90%;
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+
+} 
+.pic{
+    height: 400px;
+    position: relative;
+    border-radius: 10px;
+
+} 
+.pic img{
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.pic::before{
+    position: absolute;
+    top:50%;
+    left: 50%;
+}
+ 
+.para1{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.para2{
+    font-size: 13px;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.btn{
+    color: #fff;
+    font-size: 30px;
+    font-weight:20px; 
+    text-decoration: none; 
+    font-family:  Helvetica, Arial, sans-serif;
+    
+     background-color: black;
+    transition: all 0.2s;
+    padding:20px;
+    line-height: 40px;
+}
+.AboutUs{
+    padding-left: 95px;
+    padding-top: 60px;
+}
+.AboutUs::after{
+    text-decoration: none;
+}
+.foot{
+    background-color: black;
+    height: 400px;
+    text-align: center;
+    padding: 50px;
+}
+.Contact{
+    font-size: 30px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    cursor:default;
+}
+.phnum{
+    font-size: 20px;
+    color: white;
+}
+
+.phnum2{
+    font-size: 20px;
+    color: white;
+  }
+.commerce{
+    font-size: 20px;
+    color: #fff;
+}
+.fa-lg{
+    cursor: pointer;
+}
+.footer-menu{
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+}
+.footer-menu ul{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    list-style-position:inside;
+    font-size: 15px;
+    }
+.footer-menu ul li a:hover{
+    text-decoration: underline;
+
+    }
+.footer-menu ul li a{ 
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+   
+    
+}  
+.copy{
+    text-decoration: none;
+    color: #fff;
+}
+.Shopify{
+    text-decoration: none;
+    color: #fff;  
+}
+
+
+
+
+    
+    
